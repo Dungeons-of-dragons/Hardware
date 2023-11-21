@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_Espressif_ESP32")(type "KiCad")(uri "${KIPRJMOD}/MCU_Espressif_ESP32.kicad_sym")(options "")(descr ""))
+  (lib (name "RFID_NXP")(type "KiCad")(uri "${KIPRJMOD}/RF_RFID_NXP.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensors_Motion_PIR")(type "KiCad")(uri "${KIPRJMOD}/Sensors_Motion_PIR.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensors_Gas")(type "KiCad")(uri "${KIPRJMOD}/Sensors_Gas.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_ESP32")(type "KiCad")(uri "${KIPRJMOD}/MCU_ESP32.kicad_sym")(options "")(descr ""))
+)

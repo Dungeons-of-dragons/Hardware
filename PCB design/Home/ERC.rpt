@@ -1,0 +1,11 @@
+ERC report (21/11/2023 16:49:00, Encoding UTF8)
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error
+    @(86.3600 mm, 22.8600 mm): Symbol U2 Pin 8 [VCC, Power input, Line]
+[lib_symbol_issues]: Symbol 'ESP32-WROOM-32' has been modified in library 'RF_Module'
+    ; Severity: warning (excluded)
+    @(45.7200 mm, 59.6900 mm): Symbol U1 [ESP32-WROOM-32]
+
+ ** ERC messages: 2  Errors 1  Warnings 1
