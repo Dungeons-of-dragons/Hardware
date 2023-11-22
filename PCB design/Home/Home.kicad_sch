@@ -2141,7 +2141,7 @@
     (property "Value" "Buzzer" (at 124.46 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Sensor_Current:ACS712_5B" (at 120.015 22.86 90)
+    (property "Footprint" "Buzzer_Beeper:Buzzer_D14mm_H7mm_P10mm" (at 120.015 22.86 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.015 22.86 90)
