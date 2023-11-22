@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Home")(type "KiCad")(uri "C:/Users/lenovo/Desktop/DoD/Hardware/PCB design/Home")(options "")(descr ""))
+  (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/ESP32-DEVKIT-V1")(options "")(descr ""))
+  (lib (name "Sensor_motion_PIR")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/PIR/Sensor_motion_PIR.pretty")(options "")(descr ""))
+  (lib (name "Sensor_Gas")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/MQ2/Sensor_Gas.pretty")(options "")(descr ""))
+  (lib (name "DC-DC_Buck_Converter")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/Buck/DC-DC_Buck_Converter.pretty")(options "")(descr ""))
+  (lib (name "Sensor_Current")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/ACS712/Sensor_Current.pretty")(options "")(descr ""))
+)
