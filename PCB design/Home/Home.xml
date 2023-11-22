@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home\Home.kicad_sch</source>
+    <date>23/11/2023 00:42:22</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Home.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzer_Beeper:Buzzer_D14mm_H7mm_P10mm</footprint>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Buzzer, polarized"/>
+      <property name="ki_keywords" value="quartz resonator ceramic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a248b014-bf1b-42b2-a4ae-c2d519307310</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_RGBK</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <libsource lib="Device" part="LED_RGBK" description="RGB LED, red/green/blue/cathode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="RGB LED, red/green/blue/cathode"/>
+      <property name="ki_keywords" value="LED RGB diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6cbe810-2568-4502-b80e-26b9c05dea33</tstamps>
+    </comp>
+    <comp ref="ESP32_DEVKIT_V1">
+      <value>~</value>
+      <footprint>esp32:MODULE_ESP32_DEVKIT_V1</footprint>
+      <libsource lib="MCU_DOIT_ESP32" part="ESP32_DEVKIT_V1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db538a3d-4d2b-4e0d-8fd4-2236ca3a9a1a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Fan</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7ecd4f8-5e8a-46f0-a107-1ae4bd38f947</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>LCD</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3a062ea-ef50-439e-a2fb-115f7f91e7a5</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>EM LOCK</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4824c15-dbbd-4902-97dd-ae37a64279aa</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>ACS712 Signal</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32c03a6c-9b1f-4f21-8fa3-b3b992dd9bfd</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Power In</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a133cfb-d579-4cc4-b2d7-02e88cfad740</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>ACS712 Power</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>666144c6-76fa-493c-a859-590ca57d6676</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>RFID</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eade73b0-d293-4698-b0c5-bed0e3264cff</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>RFID</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d30fbf07-b2b6-45d3-ae7a-725f56de2b7b</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>LCD </value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a99bc94-0d0f-4d99-a886-11d3aa1960c8</tstamps>
+    </comp>
+    <comp ref="LM2596_buck_converter1">
+      <value>~</value>
+      <footprint>DC-DC_Buck_Converter:LM2596_module</footprint>
+      <libsource lib="Buck_coverter" part="DC-DC_LM2596_BUCK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65241797-bb52-49a6-8858-7bf8233c86e4</tstamps>
+    </comp>
+    <comp ref="LM2596_buck_converter2">
+      <value>~</value>
+      <footprint>DC-DC_Buck_Converter:LM2596_module</footprint>
+      <libsource lib="Buck_coverter" part="DC-DC_LM2596_BUCK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff4721a6-7399-4db8-b696-1093bac3dde3</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ACS712</value>
+      <footprint>Sensor_Current:ACS712_5B</footprint>
+      <libsource lib="Sensor_Current_module" part="ACS712_5B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f4399e7-814f-4009-a3d6-7432c96da400</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DHT11</value>
+      <footprint>Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</datasheet>
+      <libsource lib="Sensor" part="DHT11" description="Temperature and humidity module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Temperature and humidity module"/>
+      <property name="ki_keywords" value="Digital temperature humidity sensor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78eed261-bef4-4b97-9741-946957e2038d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>PIR</value>
+      <footprint>Sensor_motion_PIR:PIR_HC-S501</footprint>
+      <datasheet>https://pdf1.alldatasheet.com/datasheet-pdf/view/1131987/ETC2/HC-SR501.html</datasheet>
+      <libsource lib="Sensors_Motion_PIR" part="HC_SR501_PIR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>793e7888-521a-4ca2-927d-f4ccef9ebcd9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MQ2</value>
+      <footprint>Sensor_Gas:MQ2</footprint>
+      <datasheet>https://www.pololu.com/file/0J309/MQ2.pdf</datasheet>
+      <libsource lib="Sensors_Gas" part="MQ2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45b198e3-069c-495d-af35-ff66ae5e839a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Buck_coverter" part="DC-DC_LM2596_BUCK">
+      <fields>
+        <field name="Reference">LM2596_buck_converter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+IN" type="power_in"/>
+        <pin num="2" name="-IN" type="power_in"/>
+        <pin num="3" name="+OUT" type="power_out"/>
+        <pin num="4" name="-OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_RGBK">
+      <description>RGB LED, red/green/blue/cathode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RGBK</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RA" type="passive"/>
+        <pin num="2" name="GA" type="passive"/>
+        <pin num="3" name="BA" type="passive"/>
+        <pin num="4" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_DOIT_ESP32" part="ESP32_DEVKIT_V1">
+      <fields>
+        <field name="Reference">ESP32_DEVKIT_V1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="power_in"/>
+        <pin num="2" name="GPIO36" type="bidirectional"/>
+        <pin num="3" name="GPIO39" type="bidirectional"/>
+        <pin num="4" name="GPIO34" type="bidirectional"/>
+        <pin num="5" name="GPIO35" type="bidirectional"/>
+        <pin num="6" name="GPIO32" type="bidirectional"/>
+        <pin num="7" name="GPIO33" type="bidirectional"/>
+        <pin num="8" name="GPIO25" type="bidirectional"/>
+        <pin num="9" name="GPIO26" type="bidirectional"/>
+        <pin num="10" name="GPIO27" type="bidirectional"/>
+        <pin num="11" name="GPIO14" type="bidirectional"/>
+        <pin num="12" name="GPIO12" type="bidirectional"/>
+        <pin num="13" name="GPIO13" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VIN" type="power_in"/>
+        <pin num="16" name="3.3V" type="power_out"/>
+        <pin num="17" name="GND" type="power_out"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="GPIO2" type="bidirectional"/>
+        <pin num="20" name="GPIO4" type="bidirectional"/>
+        <pin num="21" name="GPIO16/RXD_2" type="bidirectional"/>
+        <pin num="22" name="GPIO17/TXD_2" type="bidirectional"/>
+        <pin num="23" name="GPIO5/SS" type="bidirectional"/>
+        <pin num="24" name="GPIO18/SCK" type="bidirectional"/>
+        <pin num="25" name="GPIO19/MISO" type="bidirectional"/>
+        <pin num="26" name="GPIO21/SDA" type="bidirectional"/>
+        <pin num="27" name="GPIO3/RXD_0" type="bidirectional"/>
+        <pin num="28" name="GPIO1/TXD0" type="bidirectional"/>
+        <pin num="29" name="GPIO22/SCL" type="bidirectional"/>
+        <pin num="30" name="GPIO23/MOSI" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor" part="DHT11">
+      <description>Temperature and humidity module</description>
+      <docs>http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</docs>
+      <footprints>
+        <fp>Aosong*DHT11*5.5x12.0*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DHT11</field>
+        <field name="Footprint">Sensor:Aosong_DHT11_5.5x12.0_P2.54mm</field>
+        <field name="Datasheet">http://akizukidenshi.com/download/ds/aosong/DHT11.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="IO" type="bidirectional"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Current_module" part="ACS712_5B">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="+IP" type="power_out"/>
+        <pin num="5" name="-IP" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensors_Gas" part="MQ2">
+      <fields>
+        <field name="Reference">MQ2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DO" type="output"/>
+        <pin num="4" name="AO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensors_Motion_PIR" part="HC_SR501_PIR">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Buck_coverter">
+      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/Buck/Buck_coverter.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_DOIT_ESP32">
+      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/ESP32-DEVKIT-V1/MCU_DOIT_ESP32.kicad_sym</uri>
+    </library>
+    <library logical="Sensor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Current_module">
+      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/ACS712/Sensor_Current_module.kicad_sym</uri>
+    </library>
+    <library logical="Sensors_Gas">
+      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/MQ2/Sensors_Gas.kicad_sym</uri>
+    </library>
+    <library logical="Sensors_Motion_PIR">
+      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/PIR/Sensors_Motion_PIR.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="ESP32_DEVKIT_V1" pin="15" pinfunction="VIN" pintype="power_in"/>
+      <node ref="LM2596_buck_converter2" pin="3" pinfunction="+OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="LM2596_buck_converter1" pin="3" pinfunction="+OUT" pintype="power_out"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="LM2596_buck_converter1" pin="1" pinfunction="+IN" pintype="power_in"/>
+      <node ref="LM2596_buck_converter2" pin="1" pinfunction="+IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="-5V">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="-12V">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="LM2596_buck_converter1" pin="2" pinfunction="-IN" pintype="power_in"/>
+      <node ref="LM2596_buck_converter2" pin="2" pinfunction="-IN" pintype="power_in"/>
+    </net>
+    <net code="6" name="3.3V">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="3V3">
+      <node ref="ESP32_DEVKIT_V1" pin="16" pinfunction="3.3V" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="8" name="5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="12V">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="ACS">
+      <node ref="ESP32_DEVKIT_V1" pin="4" pinfunction="GPIO34" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="11" name="BLUE">
+      <node ref="D1" pin="2" pinfunction="GA" pintype="passive"/>
+      <node ref="ESP32_DEVKIT_V1" pin="11" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="BUZZ">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="ESP32_DEVKIT_V1" pin="8" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="DHT">
+      <node ref="ESP32_DEVKIT_V1" pin="21" pinfunction="GPIO16/RXD_2" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="D1" pin="4" pinfunction="K" pintype="passive"/>
+      <node ref="ESP32_DEVKIT_V1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="LM2596_buck_converter1" pin="4" pinfunction="-OUT" pintype="passive"/>
+      <node ref="LM2596_buck_converter2" pin="4" pinfunction="-OUT" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="GREEN">
+      <node ref="D1" pin="3" pinfunction="BA" pintype="passive"/>
+      <node ref="ESP32_DEVKIT_V1" pin="12" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="IP+">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="17" name="IP-">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="18" name="MISO">
+      <node ref="ESP32_DEVKIT_V1" pin="25" pinfunction="GPIO19/MISO" pintype="bidirectional"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="19" name="MOSI">
+      <node ref="ESP32_DEVKIT_V1" pin="30" pinfunction="GPIO23/MOSI" pintype="bidirectional"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="20" name="MQ2">
+      <node ref="ESP32_DEVKIT_V1" pin="19" pinfunction="GPIO2" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="AO" pintype="output"/>
+    </net>
+    <net code="21" name="PIR">
+      <node ref="ESP32_DEVKIT_V1" pin="6" pinfunction="GPIO32" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="22" name="RED">
+      <node ref="D1" pin="1" pinfunction="RA" pintype="passive"/>
+      <node ref="ESP32_DEVKIT_V1" pin="13" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="RELAY">
+      <node ref="ESP32_DEVKIT_V1" pin="24" pinfunction="GPIO18/SCK" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="24" name="SCK">
+      <node ref="ESP32_DEVKIT_V1" pin="29" pinfunction="GPIO22/SCL" pintype="bidirectional"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="SDA">
+      <node ref="ESP32_DEVKIT_V1" pin="7" pinfunction="GPIO33" pintype="bidirectional"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(ESP32_DEVKIT_V1-EN-Pad1)">
+      <node ref="ESP32_DEVKIT_V1" pin="1" pinfunction="EN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(ESP32_DEVKIT_V1-GND-Pad17)">
+      <node ref="ESP32_DEVKIT_V1" pin="17" pinfunction="GND" pintype="power_out+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(ESP32_DEVKIT_V1-GPIO1{slash}TXD0-Pad28)">
+      <node ref="ESP32_DEVKIT_V1" pin="28" pinfunction="GPIO1/TXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(ESP32_DEVKIT_V1-GPIO3{slash}RXD_0-Pad27)">
+      <node ref="ESP32_DEVKIT_V1" pin="27" pinfunction="GPIO3/RXD_0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(ESP32_DEVKIT_V1-GPIO4-Pad20)">
+      <node ref="ESP32_DEVKIT_V1" pin="20" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(ESP32_DEVKIT_V1-GPIO5{slash}SS-Pad23)">
+      <node ref="ESP32_DEVKIT_V1" pin="23" pinfunction="GPIO5/SS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(ESP32_DEVKIT_V1-GPIO15-Pad18)">
+      <node ref="ESP32_DEVKIT_V1" pin="18" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(ESP32_DEVKIT_V1-GPIO17{slash}TXD_2-Pad22)">
+      <node ref="ESP32_DEVKIT_V1" pin="22" pinfunction="GPIO17/TXD_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(ESP32_DEVKIT_V1-GPIO21{slash}SDA-Pad26)">
+      <node ref="ESP32_DEVKIT_V1" pin="26" pinfunction="GPIO21/SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(ESP32_DEVKIT_V1-GPIO26-Pad9)">
+      <node ref="ESP32_DEVKIT_V1" pin="9" pinfunction="GPIO26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(ESP32_DEVKIT_V1-GPIO27-Pad10)">
+      <node ref="ESP32_DEVKIT_V1" pin="10" pinfunction="GPIO27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(ESP32_DEVKIT_V1-GPIO35-Pad5)">
+      <node ref="ESP32_DEVKIT_V1" pin="5" pinfunction="GPIO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(ESP32_DEVKIT_V1-GPIO36-Pad2)">
+      <node ref="ESP32_DEVKIT_V1" pin="2" pinfunction="GPIO36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(ESP32_DEVKIT_V1-GPIO39-Pad3)">
+      <node ref="ESP32_DEVKIT_V1" pin="3" pinfunction="GPIO39" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-+IP-Pad4)">
+      <node ref="U1" pin="4" pinfunction="+IP" pintype="power_out+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1--IP-Pad5)">
+      <node ref="U1" pin="5" pinfunction="-IP" pintype="power_out+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U3-NC-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U6-DO-Pad3)">
+      <node ref="U6" pin="3" pinfunction="DO" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
