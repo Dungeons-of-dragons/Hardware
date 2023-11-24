@@ -594,6 +594,10 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Fan"
       }
     ]
   },
