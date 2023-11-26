@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home\Home.kicad_sch</source>
-    <date>23/11/2023 00:42:22</date>
-    <tool>Eeschema 7.0.5</tool>
+    <source>/home/barbra/Desktop/DoD/Hardware/PCB design/Home.kicad_sch</source>
+    <date>Sun 26 Nov 2023 03:42:10 PM EAT</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -57,14 +57,14 @@
     </comp>
     <comp ref="J1">
       <value>Fan</value>
-      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Home.kicad_sch"/>
-      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="screw terminal"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c7ecd4f8-5e8a-46f0-a107-1ae4bd38f947</tstamps>
+      <tstamps>2684fd99-1511-49ab-a84f-8cbb62af6f2b</tstamps>
     </comp>
     <comp ref="J2">
       <value>LCD</value>
@@ -78,15 +78,15 @@
       <tstamps>d3a062ea-ef50-439e-a2fb-115f7f91e7a5</tstamps>
     </comp>
     <comp ref="J3">
-      <value>EM LOCK</value>
-      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <value>EM lock</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Home.kicad_sch"/>
-      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="screw terminal"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c4824c15-dbbd-4902-97dd-ae37a64279aa</tstamps>
+      <tstamps>6418f913-6c4d-44a2-af64-43a04fe3ff19</tstamps>
     </comp>
     <comp ref="J4">
       <value>ACS712 Signal</value>
@@ -109,17 +109,6 @@
       <property name="ki_keywords" value="screw terminal"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4a133cfb-d579-4cc4-b2d7-02e88cfad740</tstamps>
-    </comp>
-    <comp ref="J6">
-      <value>ACS712 Power</value>
-      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Home.kicad_sch"/>
-      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="screw terminal"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>666144c6-76fa-493c-a859-590ca57d6676</tstamps>
     </comp>
     <comp ref="J7">
       <value>RFID</value>
@@ -154,8 +143,20 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4a99bc94-0d0f-4d99-a886-11d3aa1960c8</tstamps>
     </comp>
+    <comp ref="K1">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Home.kicad_sch"/>
+      <property name="ki_description" value="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <property name="ki_keywords" value="Single Pole Relay SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0ee92e5-bae6-4f62-8ba5-02a1598ffa93</tstamps>
+    </comp>
     <comp ref="LM2596_buck_converter1">
-      <value>~</value>
+      <value>5V</value>
       <footprint>DC-DC_Buck_Converter:LM2596_module</footprint>
       <libsource lib="Buck_coverter" part="DC-DC_LM2596_BUCK" description=""/>
       <property name="Sheetname" value=""/>
@@ -164,7 +165,7 @@
       <tstamps>65241797-bb52-49a6-8858-7bf8233c86e4</tstamps>
     </comp>
     <comp ref="LM2596_buck_converter2">
-      <value>~</value>
+      <value>3.3V</value>
       <footprint>DC-DC_Buck_Converter:LM2596_module</footprint>
       <libsource lib="Buck_coverter" part="DC-DC_LM2596_BUCK" description=""/>
       <property name="Sheetname" value=""/>
@@ -316,7 +317,7 @@
         <pin num="14" name="GND" type="power_in"/>
         <pin num="15" name="VIN" type="power_in"/>
         <pin num="16" name="3.3V" type="power_out"/>
-        <pin num="17" name="GND" type="power_out"/>
+        <pin num="17" name="GND" type="power_in"/>
         <pin num="18" name="GPIO15" type="bidirectional"/>
         <pin num="19" name="GPIO2" type="bidirectional"/>
         <pin num="20" name="GPIO4" type="bidirectional"/>
@@ -330,6 +331,26 @@
         <pin num="28" name="GPIO1/TXD0" type="bidirectional"/>
         <pin num="29" name="GPIO22/SCL" type="bidirectional"/>
         <pin num="30" name="GPIO23/MOSI" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="SANYOU_SRD_Form_C">
+      <description>Sanyo SRD relay, Single Pole Miniature Power Relay,</description>
+      <docs>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*SANYOU*SRD*Series*Form*C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SANYOU_SRD_Form_C</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</field>
+        <field name="Datasheet">http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Sensor" part="DHT11">
@@ -387,93 +408,95 @@
   </libparts>
   <libraries>
     <library logical="Buck_coverter">
-      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/Buck/Buck_coverter.kicad_sym</uri>
+      <uri>/home/barbra/Desktop/DoD/Hardware/PCB design/Project_Libraries/Buck/Buck_coverter.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="MCU_DOIT_ESP32">
-      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/ESP32-DEVKIT-V1/MCU_DOIT_ESP32.kicad_sym</uri>
+      <uri>/home/barbra/Desktop/DoD/Hardware/PCB design/Project_Libraries/ESP32-DEVKIT-V1/MCU_DOIT_ESP32.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/usr/share/kicad/symbols//Relay.kicad_sym</uri>
     </library>
     <library logical="Sensor">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Sensor.kicad_sym</uri>
     </library>
     <library logical="Sensor_Current_module">
-      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/ACS712/Sensor_Current_module.kicad_sym</uri>
+      <uri>/home/barbra/Desktop/DoD/Hardware/PCB design/Project_Libraries/ACS712/Sensor_Current_module.kicad_sym</uri>
     </library>
     <library logical="Sensors_Gas">
-      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/MQ2/Sensors_Gas.kicad_sym</uri>
+      <uri>/home/barbra/Desktop/DoD/Hardware/PCB design/Project_Libraries/MQ2/Sensors_Gas.kicad_sym</uri>
     </library>
     <library logical="Sensors_Motion_PIR">
-      <uri>C:\Users\lenovo\Desktop\DoD\Hardware\PCB design\Home/Project_Libraries/PIR/Sensors_Motion_PIR.kicad_sym</uri>
+      <uri>/home/barbra/Desktop/DoD/Hardware/PCB design/Project_Libraries/PIR/Sensors_Motion_PIR.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3V">
       <node ref="ESP32_DEVKIT_V1" pin="15" pinfunction="VIN" pintype="power_in"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="LM2596_buck_converter2" pin="3" pinfunction="+OUT" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="2" name="+5V">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
       <node ref="LM2596_buck_converter1" pin="3" pinfunction="+OUT" pintype="power_out"/>
       <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="3" name="+12V">
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
       <node ref="LM2596_buck_converter1" pin="1" pinfunction="+IN" pintype="power_in"/>
       <node ref="LM2596_buck_converter2" pin="1" pinfunction="+IN" pintype="power_in"/>
     </net>
-    <net code="4" name="-5V">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="5" name="-12V">
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="4" name="-12V">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="LM2596_buck_converter1" pin="2" pinfunction="-IN" pintype="power_in"/>
       <node ref="LM2596_buck_converter2" pin="2" pinfunction="-IN" pintype="power_in"/>
     </net>
-    <net code="6" name="3.3V">
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="7" name="3V3">
+    <net code="5" name="3V3">
       <node ref="ESP32_DEVKIT_V1" pin="16" pinfunction="3.3V" pintype="power_out"/>
-      <node ref="U3" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U5" pin="3" pinfunction="VCC" pintype="power_in"/>
       <node ref="U6" pin="1" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="8" name="5V">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="9" name="12V">
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="10" name="ACS">
+    <net code="6" name="ACS">
       <node ref="ESP32_DEVKIT_V1" pin="4" pinfunction="GPIO34" pintype="bidirectional"/>
       <node ref="U1" pin="2" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="11" name="BLUE">
+    <net code="7" name="BLUE">
       <node ref="D1" pin="2" pinfunction="GA" pintype="passive"/>
-      <node ref="ESP32_DEVKIT_V1" pin="11" pinfunction="GPIO14" pintype="bidirectional"/>
+      <node ref="ESP32_DEVKIT_V1" pin="12" pinfunction="GPIO12" pintype="bidirectional"/>
     </net>
-    <net code="12" name="BUZZ">
+    <net code="8" name="BUZZ">
       <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
-      <node ref="ESP32_DEVKIT_V1" pin="8" pinfunction="GPIO25" pintype="bidirectional"/>
+      <node ref="ESP32_DEVKIT_V1" pin="10" pinfunction="GPIO27" pintype="bidirectional"/>
     </net>
-    <net code="13" name="DHT">
-      <node ref="ESP32_DEVKIT_V1" pin="21" pinfunction="GPIO16/RXD_2" pintype="bidirectional"/>
+    <net code="9" name="DHT">
+      <node ref="ESP32_DEVKIT_V1" pin="9" pinfunction="GPIO26" pintype="bidirectional"/>
       <node ref="U3" pin="2" pinfunction="IO" pintype="bidirectional"/>
     </net>
-    <net code="14" name="GND">
+    <net code="10" name="Fan">
+      <node ref="ESP32_DEVKIT_V1" pin="21" pinfunction="GPIO16/RXD_2" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="11" name="GND">
       <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
       <node ref="D1" pin="4" pinfunction="K" pintype="passive"/>
       <node ref="ESP32_DEVKIT_V1" pin="14" pinfunction="GND" pintype="power_in"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="ESP32_DEVKIT_V1" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
       <node ref="LM2596_buck_converter1" pin="4" pinfunction="-OUT" pintype="passive"/>
       <node ref="LM2596_buck_converter2" pin="4" pinfunction="-OUT" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
@@ -481,102 +504,96 @@
       <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="15" name="GREEN">
+    <net code="12" name="GREEN">
       <node ref="D1" pin="3" pinfunction="BA" pintype="passive"/>
-      <node ref="ESP32_DEVKIT_V1" pin="12" pinfunction="GPIO12" pintype="bidirectional"/>
-    </net>
-    <net code="16" name="IP+">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="17" name="IP-">
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="18" name="MISO">
-      <node ref="ESP32_DEVKIT_V1" pin="25" pinfunction="GPIO19/MISO" pintype="bidirectional"/>
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="19" name="MOSI">
-      <node ref="ESP32_DEVKIT_V1" pin="30" pinfunction="GPIO23/MOSI" pintype="bidirectional"/>
-      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="20" name="MQ2">
-      <node ref="ESP32_DEVKIT_V1" pin="19" pinfunction="GPIO2" pintype="bidirectional"/>
-      <node ref="U6" pin="4" pinfunction="AO" pintype="output"/>
-    </net>
-    <net code="21" name="PIR">
-      <node ref="ESP32_DEVKIT_V1" pin="6" pinfunction="GPIO32" pintype="bidirectional"/>
-      <node ref="U5" pin="2" pinfunction="OUT" pintype="output"/>
-    </net>
-    <net code="22" name="RED">
-      <node ref="D1" pin="1" pinfunction="RA" pintype="passive"/>
       <node ref="ESP32_DEVKIT_V1" pin="13" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="23" name="RELAY">
-      <node ref="ESP32_DEVKIT_V1" pin="24" pinfunction="GPIO18/SCK" pintype="bidirectional"/>
-      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="24" name="SCK">
-      <node ref="ESP32_DEVKIT_V1" pin="29" pinfunction="GPIO22/SCL" pintype="bidirectional"/>
+    <net code="13" name="MISO">
+      <node ref="ESP32_DEVKIT_V1" pin="25" pinfunction="GPIO19/MISO" pintype="bidirectional"/>
       <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="14" name="MOSI">
+      <node ref="ESP32_DEVKIT_V1" pin="30" pinfunction="GPIO23/MOSI" pintype="bidirectional"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="15" name="MQ2">
+      <node ref="ESP32_DEVKIT_V1" pin="22" pinfunction="GPIO17/TXD_2" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="AO" pintype="output"/>
+    </net>
+    <net code="16" name="PIR">
+      <node ref="ESP32_DEVKIT_V1" pin="23" pinfunction="GPIO5/SS" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="17" name="RED">
+      <node ref="D1" pin="1" pinfunction="RA" pintype="passive"/>
+      <node ref="ESP32_DEVKIT_V1" pin="11" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="RELAY">
+      <node ref="ESP32_DEVKIT_V1" pin="7" pinfunction="GPIO33" pintype="bidirectional"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="SCK">
+      <node ref="ESP32_DEVKIT_V1" pin="29" pinfunction="GPIO22/SCL" pintype="bidirectional"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="25" name="SDA">
-      <node ref="ESP32_DEVKIT_V1" pin="7" pinfunction="GPIO33" pintype="bidirectional"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="20" name="SDA">
+      <node ref="ESP32_DEVKIT_V1" pin="26" pinfunction="GPIO21/SDA" pintype="bidirectional"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="26" name="unconnected-(ESP32_DEVKIT_V1-EN-Pad1)">
+    <net code="21" name="unconnected-(ESP32_DEVKIT_V1-EN-Pad1)">
       <node ref="ESP32_DEVKIT_V1" pin="1" pinfunction="EN" pintype="power_in+no_connect"/>
     </net>
-    <net code="27" name="unconnected-(ESP32_DEVKIT_V1-GND-Pad17)">
-      <node ref="ESP32_DEVKIT_V1" pin="17" pinfunction="GND" pintype="power_out+no_connect"/>
-    </net>
-    <net code="28" name="unconnected-(ESP32_DEVKIT_V1-GPIO1{slash}TXD0-Pad28)">
+    <net code="22" name="unconnected-(ESP32_DEVKIT_V1-GPIO1{slash}TXD0-Pad28)">
       <node ref="ESP32_DEVKIT_V1" pin="28" pinfunction="GPIO1/TXD0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="29" name="unconnected-(ESP32_DEVKIT_V1-GPIO3{slash}RXD_0-Pad27)">
+    <net code="23" name="unconnected-(ESP32_DEVKIT_V1-GPIO2-Pad19)">
+      <node ref="ESP32_DEVKIT_V1" pin="19" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(ESP32_DEVKIT_V1-GPIO3{slash}RXD_0-Pad27)">
       <node ref="ESP32_DEVKIT_V1" pin="27" pinfunction="GPIO3/RXD_0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="30" name="unconnected-(ESP32_DEVKIT_V1-GPIO4-Pad20)">
+    <net code="25" name="unconnected-(ESP32_DEVKIT_V1-GPIO4-Pad20)">
       <node ref="ESP32_DEVKIT_V1" pin="20" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="31" name="unconnected-(ESP32_DEVKIT_V1-GPIO5{slash}SS-Pad23)">
-      <node ref="ESP32_DEVKIT_V1" pin="23" pinfunction="GPIO5/SS" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="32" name="unconnected-(ESP32_DEVKIT_V1-GPIO15-Pad18)">
+    <net code="26" name="unconnected-(ESP32_DEVKIT_V1-GPIO15-Pad18)">
       <node ref="ESP32_DEVKIT_V1" pin="18" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="33" name="unconnected-(ESP32_DEVKIT_V1-GPIO17{slash}TXD_2-Pad22)">
-      <node ref="ESP32_DEVKIT_V1" pin="22" pinfunction="GPIO17/TXD_2" pintype="bidirectional+no_connect"/>
+    <net code="27" name="unconnected-(ESP32_DEVKIT_V1-GPIO18{slash}SCK-Pad24)">
+      <node ref="ESP32_DEVKIT_V1" pin="24" pinfunction="GPIO18/SCK" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(ESP32_DEVKIT_V1-GPIO21{slash}SDA-Pad26)">
-      <node ref="ESP32_DEVKIT_V1" pin="26" pinfunction="GPIO21/SDA" pintype="bidirectional+no_connect"/>
+    <net code="28" name="unconnected-(ESP32_DEVKIT_V1-GPIO25-Pad8)">
+      <node ref="ESP32_DEVKIT_V1" pin="8" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(ESP32_DEVKIT_V1-GPIO26-Pad9)">
-      <node ref="ESP32_DEVKIT_V1" pin="9" pinfunction="GPIO26" pintype="bidirectional+no_connect"/>
+    <net code="29" name="unconnected-(ESP32_DEVKIT_V1-GPIO32-Pad6)">
+      <node ref="ESP32_DEVKIT_V1" pin="6" pinfunction="GPIO32" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(ESP32_DEVKIT_V1-GPIO27-Pad10)">
-      <node ref="ESP32_DEVKIT_V1" pin="10" pinfunction="GPIO27" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="37" name="unconnected-(ESP32_DEVKIT_V1-GPIO35-Pad5)">
+    <net code="30" name="unconnected-(ESP32_DEVKIT_V1-GPIO35-Pad5)">
       <node ref="ESP32_DEVKIT_V1" pin="5" pinfunction="GPIO35" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(ESP32_DEVKIT_V1-GPIO36-Pad2)">
+    <net code="31" name="unconnected-(ESP32_DEVKIT_V1-GPIO36-Pad2)">
       <node ref="ESP32_DEVKIT_V1" pin="2" pinfunction="GPIO36" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(ESP32_DEVKIT_V1-GPIO39-Pad3)">
+    <net code="32" name="unconnected-(ESP32_DEVKIT_V1-GPIO39-Pad3)">
       <node ref="ESP32_DEVKIT_V1" pin="3" pinfunction="GPIO39" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U1-+IP-Pad4)">
+    <net code="33" name="unconnected-(J4-Pin_2-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(K1-Pad4)">
+      <node ref="K1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-+IP-Pad4)">
       <node ref="U1" pin="4" pinfunction="+IP" pintype="power_out+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U1--IP-Pad5)">
+    <net code="36" name="unconnected-(U1--IP-Pad5)">
       <node ref="U1" pin="5" pinfunction="-IP" pintype="power_out+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U3-NC-Pad3)">
+    <net code="37" name="unconnected-(U3-NC-Pad3)">
       <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U6-DO-Pad3)">
+    <net code="38" name="unconnected-(U6-DO-Pad3)">
       <node ref="U6" pin="3" pinfunction="DO" pintype="output+no_connect"/>
     </net>
   </nets>
