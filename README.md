@@ -89,9 +89,13 @@ The tracks are filleted to reduce inductance and therefore reducing cases of ref
 
 ### 3D PCB
 
-After routing, the final PCB would be expected to look like this:
+After routing, the final PCB footprint is be expected to look like this:
 
-![alt 3D PCB](3D_PCB.png)
+![alt 3D PCB](footprints.png)
+
+On adding the components,
+
+![alt 3D components](3D_components.png)
 
 This is the desired output after fabrication.
 
