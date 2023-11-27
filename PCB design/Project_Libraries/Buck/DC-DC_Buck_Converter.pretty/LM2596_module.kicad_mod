@@ -21,4 +21,9 @@
   (pad "2" thru_hole rect (at 1.27 20.828) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 42fcf064-e93f-4c2a-900a-09132052f373))
   (pad "3" thru_hole rect (at 42.672 2.032) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 6aea612d-3a6f-47e1-b7ab-509db0ee16d0))
   (pad "4" thru_hole rect (at 42.418 20.828) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 49170766-b2f3-4de2-ba62-564cd7d04eb3))
+  (model "${KIPRJMOD}/Project_Libraries/Buck/LM2596_DC-DC_BUCK CONVERTER ASSY-corrected 061823.STEP"
+    (offset (xyz 28.5 36.5 8.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

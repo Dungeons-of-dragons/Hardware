@@ -26,7 +26,7 @@
   (pad "3" thru_hole circle (at 3.048 11.176) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 34988135-5979-4617-adc8-0ce444ba3bd7))
   (pad "4" thru_hole circle (at 3.048 13.208) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 87eeb5ee-ee19-40be-b6d5-8e8b705c203d))
   (model "${KIPRJMOD}/Project_Libraries/MQ2/MQ2 (дым).STEP"
-    (offset (xyz 8.5 -10 18.5))
+    (offset (xyz -2.5 -9.5 15.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 -90 180))
   )

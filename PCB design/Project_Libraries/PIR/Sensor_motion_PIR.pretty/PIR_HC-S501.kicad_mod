@@ -30,4 +30,9 @@
   (pad "1" thru_hole rect (at -5.08 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 337d0139-9dfb-48b2-847a-00ce8886e7c7))
   (pad "2" thru_hole circle (at -3.048 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e9536ef8-6c0d-460c-854b-56ffcec73475))
   (pad "3" thru_hole circle (at -1.016 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 29138b33-3f26-4563-a52c-183c0ee0fb75))
+  (model "${KIPRJMOD}/Project_Libraries/PIR/PIR Sensor.step"
+    (offset (xyz -3 -5 9))
+    (scale (xyz 1 1 1.2))
+    (rotate (xyz 90 0 180))
+  )
 )

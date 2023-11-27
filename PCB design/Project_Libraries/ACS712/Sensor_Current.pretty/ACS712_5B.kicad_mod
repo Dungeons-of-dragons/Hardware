@@ -28,4 +28,9 @@
   (pad "3" thru_hole rect (at 30.226 9.144) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 8e1147d8-1db8-4ed2-851f-6f912e7454af))
   (pad "4" thru_hole circle (at 4.064 4.318) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp e42d662c-4eae-49d5-ad44-6d573936f076))
   (pad "5" thru_hole circle (at 4.064 9.906) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 240fcd4d-28b4-43bf-bf5d-ac41dad9e7d2))
+  (model "${KIPRJMOD}/Project_Libraries/ACS712/ACS712.STEP"
+    (offset (xyz 17 -6.5 10))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 180))
+  )
 )
