@@ -24,6 +24,7 @@ The components needed to replicate this PCB and project are:
 - 1 PIR sensor (motion sensor)
 - 1 MQ2 sensor (gas sensor)
 - 1 Relay
+
 There are components attatched to the PCB externally:
 
 - 1 Fan
@@ -84,20 +85,31 @@ Kicad provides a track width calculator, we set the 12V tracks to carry 1A of cu
 ### PCB Routing
 
 The PCB routing was done manually to ensure there were no errors. The shortest paths were used where possible, however, due to arrangement of components and connections, other alternative longer paths were taken to enable connection of all paths. The routing is only on the front side of the copper clad so as to easen DIY manufacture. aligning components on both sides would make aligning of tracks holes hard, hence one side is more efficient.
-The arrangement was factored by power requirements, whether the components are analog or digital and specific positioning of some components. Components that needed 5V power were grouped together and components that needed 3.3V power were grouped together. Analog components and digital components were grouped together to prevent crossing of lines during routing. The terminal blocks were set to the edge of the PCB to ease connection to external components. THe ESP32 mcicrocontroller was set in the middle of the board to easen access of all sensors and terminal blocks to it and resuce the legnth of tracks.
+The arrangement was factored by power requirements, whether the components are analog or digital and specific positioning of some components. Components that needed 5V power were grouped together and components that needed 3.3V power were grouped together. Analog components and digital components were grouped together, respectively to prevent crossing of lines during routing. The terminal blocks were set to the edge of the PCB to ease connection to external components. The ESP32 microcontroller was set in the middle of the board to easen access of all sensors and terminal blocks to it and resuce the legnth of tracks.
 The tracks are filleted to reduce inductance and therefore reducing cases of reflection caused by sharp corners in the tracks by sharp edges.
+The tracks used are 1.7mm thick for power tracks and 1mm thick for signal tracks. The power tracks are thicker as they carry more current and the thick tracks are to ensure that the tracks don't break when etching. They also have less heat dissipation. The other tracks are narrower to ease routing and control impedence.
+
+![alt Net_classes](Net_classes.png)
 
 ### 3D PCB
 
-After routing, the final PCB footprint is be expected to look like this:
+After routing, the final PCB would be expected to look like this:
 
-![alt 3D PCB](footprints.png)
-
-On adding the components,
-
-![alt 3D components](3D_components.png)
+![alt footprints](footprints.png)
 
 This is the desired output after fabrication.
+
+![alt 3D PCB](3D_PCB.png)
+
+To prepare for fabrication, we plot the PCB layers and ensure that the edge cut is in each plot.
+
+Plotting:
+
+![alt Plotting](Plot_settings.png)
+
+The front copper layer is the one we need:
+
+![alt copper plot](Copper_plot.png)
 
 ## Fabrication
 
@@ -111,12 +123,14 @@ This is the desired output after fabrication.
 - 0.8mm drill bit
 - 1.0mm drill bit
 - PCB drill
+- Rough sand paper or a substitute(we used steel wool)
+- Smooth sand paper or substitute( we used supabrite)
 
 ### Procedure
 
 #### Etching Process
 
-1. Print the PCB design on a glossy paper using a laser printer.
+1. Print the PCB plotted design on a glossy paper using a laser printer.
 2. Cut the required dimensions of the PCB onto the copper clad and file the edges to ensure a smooth
 and even edge.
 3. Sand down the copper clad with fine sand paper until its shiny. Ensure all grease and fingerprints is
@@ -146,7 +160,18 @@ scrubbing out the toner. The parts covered with the toner expose the wanted copp
 
 ## Challenges
 
+1. On our first attempt, we made our copper tracks to thin. Below is the plot:
+
+![alt Faulty_pcb](Faulty.png)
+
+After etching this was the result:
+
+![alt Faulty_pcb_etch](Faulty_pcb.jpeg)
+
+As seen above, some of the tracks are broken as they are too thin that they're disconnected.
+2. Breaking of drill bits while drilling. The 0.8mm drill bit proved to be too delicate and thus we changed all footprints to have a hole diameter of 1.0mm so as to use the 1.0mm.
+
 ## Recommendations
 
  1. Read documentation of the microcontroller in use and components to ensure you meet their requirements.
- 
+ 2. Use a stronger and more durable drill bit.
