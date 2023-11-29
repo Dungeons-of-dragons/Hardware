@@ -598,6 +598,14 @@
       {
         "netclass": "Signal",
         "pattern": "Fan"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "RESET"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "SCL"
       }
     ]
   },
