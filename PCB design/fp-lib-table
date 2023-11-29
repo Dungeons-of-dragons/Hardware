@@ -6,4 +6,7 @@
   (lib (name "Sensor_Gas")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/MQ2/Sensor_Gas.pretty")(options "")(descr ""))
   (lib (name "DC-DC_Buck_Converter")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/Buck/DC-DC_Buck_Converter.pretty")(options "")(descr ""))
   (lib (name "Sensor_Current")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/ACS712/Sensor_Current.pretty")(options "")(descr ""))
+  (lib (name "Switch_SPST")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/Switch/Switch_SPST.pretty")(options "")(descr ""))
+  (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/RGB/LED.pretty")(options "")(descr ""))
+  (lib (name "Sensor_temperature_humidity")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/DHt11/Sensor_temperature_humidity.pretty")(options "")(descr ""))
 )

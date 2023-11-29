@@ -139,4 +139,9 @@
     (solder_mask_margin 0.102) (tstamp cb6431d6-51f9-4232-b49a-e48075cff685))
   (pad "30" thru_hole circle (at 12.7 -17.78) (size 2 2) (drill 1.02) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp a3c20827-c963-46cb-9223-dd3b76840ad0))
+  (model "${KIPRJMOD}/Project_Libraries/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1.step"
+    (offset (xyz 0 2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

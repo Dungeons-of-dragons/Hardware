@@ -21,12 +21,16 @@
     (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp f3925114-bf5a-4e96-a49c-66000f62a4be))
   (fp_rect (start -0.762 -0.508) (end 6.604 20.828)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp dff55303-e5b8-42a1-aed9-9ddba1a33e82))
-  (pad "1" thru_hole circle (at 3.048 6.604) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 20abcf20-40ea-4d90-9087-eb5945faf522))
-  (pad "2" thru_hole rect (at 3.048 8.89) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 650f1f4b-9107-4c13-ba49-9777cccf928f))
-  (pad "3" thru_hole circle (at 3.048 11.176) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 34988135-5979-4617-adc8-0ce444ba3bd7))
-  (pad "4" thru_hole circle (at 3.048 13.208) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 87eeb5ee-ee19-40be-b6d5-8e8b705c203d))
+  (pad "1" thru_hole rect (at 3.048 6.35) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 20abcf20-40ea-4d90-9087-eb5945faf522))
+  (pad "2" thru_hole circle (at 3.048 8.89) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 650f1f4b-9107-4c13-ba49-9777cccf928f))
+  (pad "3" thru_hole circle (at 3.048 11.43) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 34988135-5979-4617-adc8-0ce444ba3bd7))
+  (pad "4" thru_hole circle (at 3.048 13.716) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 87eeb5ee-ee19-40be-b6d5-8e8b705c203d))
   (model "${KIPRJMOD}/Project_Libraries/MQ2/MQ2 (дым).STEP"
+<<<<<<< HEAD
+    (offset (xyz -2.5 -10 18.5))
+=======
     (offset (xyz -2.5 -9.5 15.5))
+>>>>>>> 29d35f1a8610c7a96cf01900460379ed04259b64
     (scale (xyz 1 1 1))
     (rotate (xyz -90 -90 180))
   )

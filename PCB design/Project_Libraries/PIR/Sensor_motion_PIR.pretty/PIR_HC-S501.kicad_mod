@@ -28,11 +28,19 @@
   (fp_rect (start -20.828 -5.842) (end 13.462 19.812)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp b54cd166-b40e-42e2-a12d-0cedf89a8a50))
   (pad "1" thru_hole rect (at -5.08 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 337d0139-9dfb-48b2-847a-00ce8886e7c7))
+<<<<<<< HEAD
+  (pad "2" thru_hole circle (at -2.54 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e9536ef8-6c0d-460c-854b-56ffcec73475))
+  (pad "3" thru_hole circle (at -0.254 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 29138b33-3f26-4563-a52c-183c0ee0fb75))
+  (model "${KIPRJMOD}/Project_Libraries/PIR/PIR Sensor.step"
+    (offset (xyz -2.5 -7.5 9.5))
+    (scale (xyz 1 1 1))
+=======
   (pad "2" thru_hole circle (at -3.048 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e9536ef8-6c0d-460c-854b-56ffcec73475))
   (pad "3" thru_hole circle (at -1.016 18.288) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 29138b33-3f26-4563-a52c-183c0ee0fb75))
   (model "${KIPRJMOD}/Project_Libraries/PIR/PIR Sensor.step"
     (offset (xyz -3 -5 9))
     (scale (xyz 1 1 1.2))
+>>>>>>> 29d35f1a8610c7a96cf01900460379ed04259b64
     (rotate (xyz 90 0 180))
   )
 )

@@ -6,4 +6,5 @@
   (lib (name "Sensor_Current_module")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/ACS712/Sensor_Current_module.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-DEVKIT-V1")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_DOIT_ESP32")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/ESP32-DEVKIT-V1/MCU_DOIT_ESP32.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensor_temperature_and_humidity_DHT11_KY-015")(type "KiCad")(uri "${KIPRJMOD}/Project_Libraries/DHt11/Sensor_temperature_and_humidity_DHT11_KY-015.kicad_sym")(options "")(descr ""))
 )
